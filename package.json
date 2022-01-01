@@ -1,10 +1,10 @@
 {
   "name": "testdependencies",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "",
   "bin":{
     "init":"./bin/cli.js",
-    "test-scripts" : "./bin/test-scripts"
+    "test-scripts" : "./bin/test-scripts.js"
   },
   "dependencies": {
     "classnames": "^2.3.1",
