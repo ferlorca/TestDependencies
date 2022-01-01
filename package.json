@@ -1,8 +1,11 @@
 {
-  "name": "Lidl-Scripts",
-  "version": "1.0.0",
-  "license": "Lidl",
-  "bin":"./bin/cli.js",
+  "name": "testdependencies",
+  "version": "1.0.1",
+  "license": "",
+  "bin":{
+    "init":"./bin/cli.js",
+    "test-scripts" : "./bin/test-scripts"
+  },
   "dependencies": {
     "classnames": "^2.3.1",
     "dayjs": "^1.10.7",
