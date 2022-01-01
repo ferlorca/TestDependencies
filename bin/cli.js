@@ -17,6 +17,9 @@ const installDepsCommand = `npm install`;
 const installedDeps = runCommand(installDepsCommand);
 if (!installedDeps) process.exit(-1);
 
+
+
+
 console.log(
   'Congratulations! You are ready. Dont forget configure your Webpack.'
 );
